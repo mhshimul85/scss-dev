@@ -1,0 +1,23 @@
+// MD. MEHADI HASAN SHIMUL
+// Main SCSS File
+
+// Abstract Files
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/extends"
+
+// Base Files
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// Component Files
+@import "components/button";
+
+// Layout Files
+@import "layout/header";
+
+// Pages Files
+@import "base/home";
