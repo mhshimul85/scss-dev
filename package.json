@@ -1,22 +1,22 @@
 {
-  "name": "sass-dev-tool",
+  "name": "scss-dev",
   "version": "1.0.0",
-  "description": "Landing page",
   "main": "index.js",
-  "scripts": {
-    "compile:sass" : "node-sass sass/main.scss css/style.css -w"
-  },
-  "author": "Shimul",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mhshimul85/scss-dev.git"
   },
+  "author": "Mehadi Hasan Shimul",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/mhshimul85/scss-dev/issues"
   },
   "homepage": "https://github.com/mhshimul85/scss-dev#readme",
+  "scripts": {},
+  "description": "scss dev files",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.12.3"
   }
 }

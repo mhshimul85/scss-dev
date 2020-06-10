@@ -1,0 +1,33 @@
+// MD. MEHADI HASAN SHIMUL mhshimul85@hCJQ5V4jzgrr6zv
+// Main SCSS File
+
+// Base Files
+@import "1-base/animations";
+@import "1-base/base";
+@import "1-base/typography";
+@import "1-base/utilities";
+
+// Component Files
+@import "2-components/button";
+
+// Layout Files
+@import "3-layout/header";
+
+// Pages Files
+@import "4-pages/home";
+
+// Themes Files
+// @import "5-themes/home";
+
+
+// Abstract Files
+@import "6-abstracts/functions";
+@import "6-abstracts/mixins";
+@import "6-abstracts/variables";
+@import "6-abstracts/extends";
+
+// Vendors Files
+// @import "7-vendors/home";
+
+
+
